@@ -1,4 +1,4 @@
-package br.com.erudio.security;
+package br.com.bbnsdevelop.security;
 
 import java.io.Serializable;
 

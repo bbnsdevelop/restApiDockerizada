@@ -1,4 +1,4 @@
-package br.com.erudio.data.model;
+package br.com.bbnsdevelop.data.model;
 
 import java.io.Serializable;
 import java.util.Date;

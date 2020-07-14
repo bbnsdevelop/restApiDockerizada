@@ -1,4 +1,4 @@
-package br.com.erudio.exception;
+package br.com.bbnsdevelop.exception;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.security.core.AuthenticationException;

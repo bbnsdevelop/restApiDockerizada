@@ -1,4 +1,4 @@
-package br.com.erudio.security.jwt;
+package br.com.bbnsdevelop.security.jwt;
 
 import java.io.IOException;
 

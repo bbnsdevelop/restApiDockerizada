@@ -1,4 +1,4 @@
-package br.com.erudio.config;
+package br.com.bbnsdevelop.config;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
 

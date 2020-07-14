@@ -1,4 +1,5 @@
-package br.com.erudio.converter;
+
+package br.com.bbnsdevelop;
 
 import java.util.List;
 
@@ -6,9 +7,10 @@ import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 
-import br.com.erudio.converter.mocks.MockPerson;
-import br.com.erudio.data.model.Person;
-import br.com.erudio.data.vo.v1.PersonVO;
+import br.com.bbnsdevelop.converter.DozerConverter;
+import br.com.bbnsdevelop.data.model.Person;
+import br.com.bbnsdevelop.data.vo.v1.PersonVO;
+import br.com.bbnsdevelop.mocks.MockPerson;
 
 public class DozerConverterTest {
 	

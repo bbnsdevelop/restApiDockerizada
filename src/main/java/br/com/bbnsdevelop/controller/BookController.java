@@ -1,4 +1,4 @@
-package br.com.erudio.controller;
+package br.com.bbnsdevelop.controller;
  
 import static org.springframework.hateoas.mvc.ControllerLinkBuilder.linkTo;
 import static org.springframework.hateoas.mvc.ControllerLinkBuilder.methodOn;
@@ -19,8 +19,8 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
-import br.com.erudio.data.vo.v1.BookVO;
-import br.com.erudio.services.BookServices;
+import br.com.bbnsdevelop.data.vo.v1.BookVO;
+import br.com.bbnsdevelop.services.BookServices;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
  

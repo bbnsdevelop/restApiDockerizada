@@ -1,4 +1,4 @@
-package br.com.erudio.exception;
+package br.com.bbnsdevelop.exception;
 
 import java.io.Serializable;
 import java.util.Date;

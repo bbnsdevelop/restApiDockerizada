@@ -1,4 +1,4 @@
-package br.com.erudio.services;
+package br.com.bbnsdevelop.services;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
@@ -6,11 +6,11 @@ import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
-import br.com.erudio.converter.DozerConverter;
-import br.com.erudio.data.model.Person;
-import br.com.erudio.data.vo.v1.PersonVO;
-import br.com.erudio.exception.ResourceNotFoundException;
-import br.com.erudio.repository.PersonRepository;
+import br.com.bbnsdevelop.converter.DozerConverter;
+import br.com.bbnsdevelop.data.model.Person;
+import br.com.bbnsdevelop.data.vo.v1.PersonVO;
+import br.com.bbnsdevelop.exception.ResourceNotFoundException;
+import br.com.bbnsdevelop.repository.PersonRepository;
 
 @Service
 public class PersonServices {

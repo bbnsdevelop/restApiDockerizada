@@ -1,4 +1,4 @@
-package br.com.erudio.config;
+package br.com.bbnsdevelop.config;
 
 import java.util.Collections;
 
@@ -21,7 +21,7 @@ public class SwaggerConfig {
 	public Docket api() {
 		return new Docket(DocumentationType.SWAGGER_2)
 				.select()
-				.apis(RequestHandlerSelectors.basePackage("br.com.erudio"))
+				.apis(RequestHandlerSelectors.basePackage("br.com.bbnsdevelop"))
 				.paths(PathSelectors.any())
 				.build()
 				.apiInfo(apiInfo());
@@ -33,7 +33,7 @@ public class SwaggerConfig {
 				"Docker to AWS with Java.",
 				"v1",
 				"Terms Of Service Url",
-				new Contact("Leandro Costa", "www.erudio.com.br", "your_email@gmail.com"),
+				new Contact("Leandro Costa", "www.bbnsdevelop.com.br", "your_email@gmail.com"),
 				"License of API", "License of URL", Collections.emptyList());
 	}
 }

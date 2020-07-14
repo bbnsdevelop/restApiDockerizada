@@ -1,10 +1,10 @@
-package br.com.erudio.converter.mocks;
+package br.com.bbnsdevelop.mocks;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import br.com.erudio.data.model.Person;
-import br.com.erudio.data.vo.v1.PersonVO;
+import br.com.bbnsdevelop.data.model.Person;
+import br.com.bbnsdevelop.data.vo.v1.PersonVO;
 
 public class MockPerson {
 

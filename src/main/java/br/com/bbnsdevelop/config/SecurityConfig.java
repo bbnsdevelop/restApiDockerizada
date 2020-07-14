@@ -1,4 +1,4 @@
-package br.com.erudio.config;
+package br.com.bbnsdevelop.config;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
@@ -9,8 +9,8 @@ import org.springframework.security.config.annotation.web.configuration.WebSecur
 import org.springframework.security.config.http.SessionCreationPolicy;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 
-import br.com.erudio.security.jwt.JwtConfigurer;
-import br.com.erudio.security.jwt.JwtTokenProvider;
+import br.com.bbnsdevelop.security.jwt.JwtConfigurer;
+import br.com.bbnsdevelop.security.jwt.JwtTokenProvider;
 
 @Configuration
 public class SecurityConfig extends WebSecurityConfigurerAdapter{

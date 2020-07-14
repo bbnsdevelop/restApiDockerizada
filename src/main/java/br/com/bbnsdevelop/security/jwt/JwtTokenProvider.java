@@ -1,4 +1,4 @@
-package br.com.erudio.security.jwt;
+package br.com.bbnsdevelop.security.jwt;
 
 import java.util.Base64;
 import java.util.Date;
@@ -15,7 +15,7 @@ import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.stereotype.Service;
 
-import br.com.erudio.exception.InvalidJwtAuthenticationException;
+import br.com.bbnsdevelop.exception.InvalidJwtAuthenticationException;
 import io.jsonwebtoken.Claims;
 import io.jsonwebtoken.Jws;
 import io.jsonwebtoken.JwtException;

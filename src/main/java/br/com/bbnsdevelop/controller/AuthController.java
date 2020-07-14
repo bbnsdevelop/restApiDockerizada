@@ -1,4 +1,4 @@
-package br.com.erudio.controller;
+package br.com.bbnsdevelop.controller;
 
 import static org.springframework.http.ResponseEntity.ok;
 
@@ -17,9 +17,9 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import br.com.erudio.repository.UserRepository;
-import br.com.erudio.security.AccountCredentialsVO;
-import br.com.erudio.security.jwt.JwtTokenProvider;
+import br.com.bbnsdevelop.repository.UserRepository;
+import br.com.bbnsdevelop.security.AccountCredentialsVO;
+import br.com.bbnsdevelop.security.jwt.JwtTokenProvider;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 

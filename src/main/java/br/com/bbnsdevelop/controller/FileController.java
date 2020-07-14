@@ -1,4 +1,4 @@
-package br.com.erudio.controller;
+package br.com.bbnsdevelop.controller;
 
 import java.util.Arrays;
 import java.util.List;
@@ -22,8 +22,8 @@ import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.multipart.MultipartFile;
 import org.springframework.web.servlet.support.ServletUriComponentsBuilder;
 
-import br.com.erudio.data.vo.v1.UploadFileResponseVO;
-import br.com.erudio.services.FileStorageService;
+import br.com.bbnsdevelop.data.vo.v1.UploadFileResponseVO;
+import br.com.bbnsdevelop.services.FileStorageService;
 import io.swagger.annotations.Api;
 
 @Api(tags = "FileEndpoint")
