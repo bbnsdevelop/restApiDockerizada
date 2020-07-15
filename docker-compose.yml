@@ -15,11 +15,11 @@ services:
     networks:
       - udemy-network
   docker-to-aws-with-java:
-    image: docker-to-aws-with-java
+    image: bbnsdevelop/restapi:01
     restart: always
     build:
       context: .
-      dockerfile: app/Dockerfile
+      dockerfile: Dockerfile
     working_dir: /app
     environment:
       TZ: America/Sao_Paulo    
