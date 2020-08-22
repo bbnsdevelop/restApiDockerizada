@@ -7,15 +7,15 @@ services:
     environment:
       TZ: America/Sao_Paulo
       MYSQL_ROOT_PASSWORD: docker
-      MYSQL_USER: docker
-      MYSQL_PASSWORD: docker
-      MYSQL_DATABASE: docker_to_aws_with_java
+      MYSQL_USER: root
+      MYSQL_PASSWORD: root12345
+      MYSQL_DATABASE: teste_db
     ports:
       - "3308:3306"
     networks:
       - udemy-network
   docker-to-aws-with-java:
-    image: bbnsdevelop/restapi:01
+    image: bbnsdevelop/restapi:03
     restart: always
     build:
       context: .
